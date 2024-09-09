@@ -14,8 +14,12 @@ gem "importmap-rails"
 gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+
 # Use Dart SASS [https://github.com/rails/dartsass-rails]
 gem "dartsass-rails"
+# Use Bootstrap [https://github.com/twbs/bootstrap-rubygem]
+gem "bootstrap", "~> 5.3.3"
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production

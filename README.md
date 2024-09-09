@@ -1,24 +1,12 @@
-# README
+# try-bootstrap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+tryout of rails 7.2 with importmap handler for bootstrap
 
-Things you may want to cover:
+~~~bash
+% rails new ccc -c sass
+% rails g controller home index
+% echo "https://getbootstrap.com/docs/5.3/components/navbar/ ... html" >
+app/views/shared/_navigation.html.erb
+~~~
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Than following the READM of https://github.com/twbs/bootstrap-rubygem !
